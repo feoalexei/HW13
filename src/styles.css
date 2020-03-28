@@ -1,0 +1,67 @@
+.tooltip {
+    position: relative;
+    margin: 30px 0;
+}
+
+.tooltip-content {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    padding: 0.2em 1em;
+    border: .5px solid darkgrey;
+    color: darkgrey;
+    font-size: 0.75em;
+}
+
+.block {
+    width: 30vw;
+    color: yellow;
+    background: olive;
+}
+
+.block:last-of-type {
+    margin-bottom: 30px;
+}
+
+.tabs, .tabs-content {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tabs-content {
+    margin-top: 10px;
+    padding: 20px 0;
+    color: lightblue;
+    background: darkblue;
+}
+
+.content {
+    display: none;
+    background: rebeccapurple;
+    color: lightskyblue;
+    padding: 20px;
+}
+
+.title {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: darkslategrey;
+}
+
+.title.active-accord + .content {
+    display: block;
+}
+
+.active-tab {
+    border: 2px solid orange;
+}
+
+
+
+

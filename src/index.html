@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hillel home work 13</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="tooltip" data-tooltip="some text for tool tip">
+        Point the cursor on me:)
+    </div>
+    <div class="tooltip" data-tooltip="some another text for tool tip">
+        Point the cursor on me too:)
+    </div>
+            
+    <div class="accordion">
+        <div class="block">
+            <div class="title">Lorem ipsum</div>
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur          adipisicing elit. Sit, ullam.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda.
+            </div>
+        </div>
+        <div class="block">
+            <div class="title">Dolor sit amet</div>
+            <div class="content">
+                Facere quam magnam ullam eligendi, ad quos dignissimos tempore 
+                obcaecati rem, nostrum, reprehenderit facilis? Amet optio 
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs">
+        <button class='active-tab'type="button" data-target="#tab-1">Tab 1</button>
+        <button type="button" data-target="#tab-2">Tab 2</button>
+        <button type="button" data-target="#tab-3">Tab 3</button>
+    </div>
+
+    <div class="tabs-content">
+        <div id="tab-1" class="tab">Tab content 1</div>
+        <div id="tab-2" class="tab" hidden>Tab content 2</div>
+        <div id="tab-3" class="tab" hidden>Tab content 3</div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
